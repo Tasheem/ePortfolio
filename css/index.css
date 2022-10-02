@@ -1,7 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(6, 104, 189), rgb(169, 212, 250));
+    --app-light-blue: rgb(6, 104, 189);
+    --app-dark-blue: rgb(21, 6, 189);
+    --app-green: rgb(41, 183, 41);
+}
+
+nav {
+    background-color: var(--app-dark-blue);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     width: 550px;
     margin-left: 50px;
     list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+a {
+    color: var(--app-green);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+header > h1 {
+    color: var(--app-dark-blue);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2vh;
+    background-color: var(--app-green);
+    width: 100vw;
 }

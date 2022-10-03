@@ -9,30 +9,6 @@ body {
     --app-green: rgb(41, 183, 41);
 }
 
-nav {
-    background-color: var(--app-dark-blue);
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 550px;
-    margin-left: 50px;
-    list-style: none;
-}
-
-li > a {
-    text-decoration: none;
-    font-size: 1.3em;
-}
-
-a {
-    color: var(--app-green);
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -63,10 +39,6 @@ article > img {
     margin-top: 15px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: var(--app-green);
-    width: 100vw;
-    margin-top: 50px;
+article > h2 > a {
+    color: var(--app-green);
 }

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(6, 104, 189), rgb(169, 212, 250));
+    --app-light-blue: rgb(6, 104, 189);
+    --app-dark-blue: rgb(21, 6, 189);
+    --app-green: rgb(41, 183, 41);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: var(--app-dark-blue);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
